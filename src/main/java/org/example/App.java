@@ -17,7 +17,7 @@ public class App {
     public static void main(String[] args) {
         Properties properties = new Properties();
         try {
-            properties.load(new FileInputStream("D:/Test/ParserJava/connect.properties"));
+            properties.load(new FileInputStream("D:/Test/ParserJava/src/main/resources/connect.properties"));
             String url = properties.getProperty("url");
 
             HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();

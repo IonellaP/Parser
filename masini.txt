@@ -1,80 +1,80 @@
-Pret: 11 999 € 69 000 km, Marca: Volkswagen Jetta, 2017 an
-Pret: 11 999 € 131 000 km, Marca: Volkswagen Jetta, 2017 an
-Pret: 15 990 € Prima ratā: 200 €, Marca: Citroen C5 Aircross, 2019 an
-Pret: 8 199 € Prima ratā: 0 €, Marca: Dacia Sandero Stepway, 2017 an
-Pret: 9 450 € Prima ratā: 940 €, Marca: Ford Focus, 2016 an
-Pret: 9 950 € Prima ratā: 200 €, Marca: Renault Megane, 2017 an
-Pret: 13 650 € Prima ratā: 200 €, Marca: BMW 2 Series, 2019 an
-Pret: 31 990 € Prima ratā: 6 390 €, Marca: BMW X5, 2015 an
-Pret: 12 990 € Prima ratā: 1 390 €, Marca: Peugeot 3008, 2018 an
-Pret: 11 990 €, Marca: Renault Scenic
-Pret: 23 490 € Prima ratā: 4 690 €, Marca: Mitsubishi Outlander, 2019 an
-Pret: 14 999 € Prima ratā: 0 €, Marca: KIA Niro, 2017 an
-Pret: 6 799 € Prima ratā: 99 €, Marca: Hyundai Tucson, 2006 an
-Pret: 11 400 € 1 340 000 km, Marca: Ford Focus, 2019 an
-Pret: Negociabil 146 000 km, Marca: Mercedes E-Class, 2016 an
-Pret: 6 999 € 199 000 km, Marca: Renault Grand Scenic, 2012 an
-Pret: 13 200 € 165 200 km, Marca: Citroen Jumpy, 2015 an
-Pret: 28 000 € 120 000 km, Marca: Audi Q5, 2017 an
-Pret: 30 999 € 135 000 km, Marca: Porsche Panamera, 2012 an
-Pret: 3 400 € 164 000 km, Marca: Byd F3, 2010 an
+Pret: Negociabil 300 000 km, Marca: Toyota Carina, 1996 an
+Pret: 14 750 € Prima ratā: 200 €, Marca: Renault Kadjar, 2019 an
+Pret: 13 490 € Prima ratā: 1 340 €, Marca: Renault Scenic, 2017 an
+Pret: 26 490 € Prima ratā: 5 200 €, Marca: Hyundai Tucson, 2021 an
+Pret: 20 990 € Prima ratā: 4 300 €, Marca: BMW X1, 2020 an
+Pret: Negociabil 145 000 km, Marca: Ford Focus, 2018 an
+Pret: 25 490 € Prima ratā: 5 000 €, Marca: Toyota C-HR, 2021 an
+Pret: 9 888 € 145 000 km, Marca: Toyota Rav 4, 2011 an
+Pret: 41 500 € 75 000 km, Marca: Infiniti QX80, 2015 an
+Pret: , Marca: 
+Pret: 9 990 € Prima ratā: 990 €, Marca: Chevrolet Volt, 2011 an
+Pret: 22 499 € Prima ratā: 0 €, Marca: Toyota Corolla, 2019 an
+Pret: 37 999 € 160 000 km, Marca: BMW X4, 2018 an
+Pret: 16 990 € Prima ratā: 3 390 €, Marca: Opel Grandland X, 2020 an
+Pret: 16 990 € Prima ratā: 3 300 €, Marca: Nissan Qashqai, 2019 an
+Pret: 15 490 € Prima ratā: 1 540 €, Marca: Opel Grandland X, 2019 an
+Pret: 23 990 € Prima ratā: 4 790 €, Marca: Peugeot 5008, 2021 an
+Pret: 18 990 € Prima ratā: 3 800 €, Marca: Peugeot 3008, 2019 an
+Pret: 22 500 € 3 000 km, Marca: KIA Niro, 2021 an
+Pret: 7 400 € 191 000 km, Marca: Renault Megane, 2015 an
+Pret: 10 750 € Prima ratā: 200 €, Marca: Ford C-Max, 2017 an
+Pret: 11 490 € Prima ratā: 200 €, Marca: Ford C-Max, 2019 an
+Pret: 11 590 € Prima ratā: 200 €, Marca: Ford C-Max, 2017 an
+Pret: 11 990 € Prima ratā: 200 €, Marca: Renault Captur, 2019 an
+Pret: 12 650 € Prima ratā: 200 €, Marca: Renault Captur, 2019 an
+Pret: 14 490 € Prima ratā: 200 €, Marca: Nissan Qashqai, 2019 an
+Pret: 16 000 €, Marca: Volkswagen Passat CC
+Pret: 14 650 € Prima ratā: 200 €, Marca: Nissan Qashqai, 2019 an
+Pret: 6 399 € 203 650 km, Marca: Dacia Lodgy, 2012 an
+Pret: 2 800 €, Marca: Renault Clio, 2018 an
+Pret: 12 500 € 216 000 km, Marca: Renault Grand Scenic, 2018 an
+Pret: 27 000 € 102 000 km, Marca: Skoda Superb, 2019 an
+Pret: 1 000 € 200 000 km, Marca: ВАЗ 2109, 1998 an
+Pret: 14 690 € Prima ratā: 1 460 €, Marca: Renault Grand Scenic, 2018 an
+Pret: 14 599 € 165 913 km, Marca: BMW 2 Series, 2017 an
+Pret: 7 990 € 200 km, Marca: Renault Grand Scenic, 2013 an
+Pret: 17 990 € Prima ratā: 3 590 €, Marca: Opel Grandland X, 2019 an
+Pret: 18 500 € 240 000 km, Marca: Tesla Model S, 2013 an
 Pret: 29 950 € Prima ratā: 6 200 €, Marca: BMW 5 Series, 2020 an
+Pret: 3 000 € 310 000 km, Marca: Volkswagen Passat, 1999 an
+Pret: 24 490 € Prima ratā: 5 200 €, Marca: BMW 5 Series, 2017 an
+Pret: Negociabil 209 000 km, Marca: Skoda Rapid, 2015 an
+Pret: 27 450 € Prima ratā: 5 600 €, Marca: BMW 5 Series, 2018 an
+Pret: 24 950 € Prima ratā: 5 000 €, Marca: BMW 5 Series, 2017 an
+Pret: 7 450 € 144 000 km, Marca: Ford Focus, 2013 an
+Pret: 5 700 € 96 000 km, Marca: Fiat 500, 2013 an
+Pret: 16 500 € 161 270 km, Marca: BMW 5 Series, 2014 an
+Pret: 9 850 € Prima ratā: 200 €, Marca: Ford Focus, 2016 an
+Pret: 10 250 € Prima ratā: 200 €, Marca: Ford Focus, 2017 an
+Pret: 17 000 € 370 000 km, Marca: Audi Q7, 2007 an
+Pret: 16 990 € Prima ratā: 200 €, Marca: Toyota C-HR, 2018 an
+Pret: Negociabil 270 000 km, Marca: Mercedes C-Class, 2003 an
+Pret: 17 990 € Prima ratā: 200 €, Marca: Toyota C-HR, 2019 an
+Pret: 17 450 € Prima ratā: 200 €, Marca: Toyota C-HR, 2018 an
+Pret: 11 600 € 39 000 km, Marca: Dacia Dokker, 2020 an
+Pret: 13 650 € Prima ratā: 200 €, Marca: Renault Kadjar, 2017 an
+Pret: 16 990 € Prima ratā: 200 €, Marca: Nissan Qashqai, 2019 an
+Pret: 19 999 € 185 000 km, Marca: Hyundai Santa FE, 2013 an
+Pret: 3 200 €, Marca: Renault Scenic, 2010 an
+Pret: 6 599 € Prima ratā: 0 €, Marca: Toyota Corolla, 2005 an
 Pret: , Marca: 
-Pret: 7 099 € 330 000 km, Marca: Audi A3, 2005 an
-Pret: 6 799 € Prima ratā: 99 €, Marca: Toyota Corolla, 2007 an
-Pret: 18 200 € 131 000 km, Marca: Hyundai Santa FE, 2014 an
-Pret: 4 500 €, Marca: Skoda Fabia, 2018 an
-Pret: Negociabil 210 000 km, Marca: Volvo XC90, 2010 an
-Pret: 13 000 € 156 000 km, Marca: Mini Countryman, 2011 an
-Pret: 13 350 € 95 950 km, Marca: Skoda Yeti, 2016 an
-Pret: 16 800 € 142 000 km, Marca: Lincoln MKZ, 2017 an
-Pret: 9 999 € Prima ratā: 0 €, Marca: Volvo S80, 2008 an
-Pret: 5 900 € 250 000 km, Marca: Renault Megane, 2011 an
-Pret: 12 450 € 170 000 km, Marca: Renault Kadjar, 2015 an
-Pret: 3 900 € 290 400 km, Marca: Skoda Fabia, 2007 an
-Pret: 4 300 € 215 000 km, Marca: Opel Corsa, 2006 an
-Pret: 4 250 € 250 123 km, Marca: Honda FR-V, 2005 an
-Pret: 9 000 € 173 000 km, Marca: Renault Megane, 2017 an
-Pret: 22 000 € 0 km, Marca: Toyota Land Cruiser Prado, 2015 an
-Pret: 5 500 € 0 km, Marca: Volkswagen Touareg, 2004 an
-Pret: 25 000 € 0 km, Marca: Mercedes GL Class, 2014 an
-Pret: 13 950 € Prima ratā: 1 540 €, Marca: Nissan Qashqai, 2017 an
-Pret: 6 900 € 89 000 km, Marca: Dacia Dokker, 2019 an
-Pret: 11 499 € Prima ratā: 99 €, Marca: Nissan Qashqai, 2010 an
-Pret: 5 700 €, Marca: Renault Kadjar, 2014 an
-Pret: 16 990 € Prima ratā: 3 200 €, Marca: Peugeot 3008, 2018 an
-Pret: 15 790 € Prima ratā: 200 €, Marca: Peugeot 3008, 2018 an
-Pret: 13 990 € Prima ratā: 200 €, Marca: Peugeot 3008, 2019 an
-Pret: 16 650 € Prima ratā: 200 €, Marca: Peugeot 3008, 2018 an
-Pret: 15 490 € Prima ratā: 200 €, Marca: Mercedes B-Class, 2017 an
-Pret: 8 999 € 150 000 km, Marca: Toyota Auris, 2024 an
-Pret: 14 490 € Prima ratā: 200 €, Marca: Mercedes B Class, 2018 an
-Pret: 3 500 €, Marca: Volvo V60
-Pret: 19 299 € 183 999 km, Marca: Toyota Rav 4, 2018 an
-Pret: 6 500 € 0 km, Marca: Hyundai Santa FE, 2006 an
-Pret: 6 250 € 0 km, Marca: Volkswagen Passat CC, 2009 an
-Pret: 7 250 € 300 000 km, Marca: Volkswagen Transporter, 2005 an
-Pret: 13 650 € Prima ratā: 200 €, Marca: BMW 2 Series, 2019 an
-Pret: 9 999 € Prima ratā: 0 €, Marca: Volvo S80, 2008 an
-Pret: 17 350 € Prima ratā: 200 €, Marca: BMW 2 Series, 2019 an
-Pret: , Marca: 
-Pret: 6 750 € 200 000 km, Marca: Renault Scenic, 2012 an
-Pret: 10 490 € Prima ratā: 200 €, Marca: Ford Focus, 2018 an
-Pret: 8 650 € 170 000 km, Marca: Ford Focus, 2017 an
-Pret: 5 900 € 190 000 km, Marca: Renault Kangoo, 2013 an
-Pret: 28 950 € Prima ratā: 6 000 €, Marca: Lexus NX Series, 2018 an
-Pret: 5 650 € 300 000 km, Marca: Toyota Corolla, 2006 an
-Pret: 13 750 € Prima ratā: 200 €, Marca: Nissan Qashqai, 2018 an
-Pret: 13 490 € Prima ratā: 200 €, Marca: Ford Mondeo, 2017 an
-Pret: 9 500 € 180 000 km, Marca: Ford Fusion, 2016 an
-Pret: 5 300 € 0 km, Marca: Renault Megane, 2012 an
-Pret: 14 699 € Prima ratā: 99 €, Marca: Volkswagen Jetta, 2015 an
-Pret: 7 900 € 190 000 km, Marca: Toyota Avensis, 2009 an
-Pret: 17 500 € 246 000 km, Marca: Mercedes E-Class, 2014 an
-Pret: 6 700 € 197 000 km, Marca: Opel Astra, 2011 an
-Pret: 7 950 € 200 000 km, Marca: Hyundai Sonata, 2011 an
-Pret: 10 700 € 230 000 km, Marca: Renault Kadjar, 2016 an
-Pret: 5 350 € 370 000 km, Marca: Mercedes E-Class, 2001 an
-Pret: 8 700 € 183 645 km, Marca: Renault Megane, 2014 an
-Pret: 4 600 € 300 000 km, Marca: Hyundai Accent, 2006 an
-Pret: Negociabil 167 300 km, Marca: Nissan Qashqai, 2013 an
+Pret: 15 490 € Prima ratā: 200 €, Marca: Renault Kadjar, 2019 an
+Pret: 16 950 € Prima ratā: 200 €, Marca: Peugeot 3008, 2019 an
+Pret: 15 300 € 129 000 km, Marca: Dacia Duster, 2018 an
+Pret: 11 250 € Prima ratā: 200 €, Marca: Renault Megane, 2018 an
+Pret: 16 950 € Prima ratā: 7 600 €, Marca: Dacia Duster, 2021 an
+Pret: 29 000 € 219 000 km, Marca: Audi Q7, 2012 an
+Pret: 9 400 € 1 466 400 km, Marca: Dacia Duster, 2016 an
+Pret: 11 400 € 190 000 km, Marca: Renault Megane, 2018 an
+Pret: 28 999 € 150 000 km, Marca: Lexus NX Series, 2019 an
+Pret: 11 300 € 163 000 km, Marca: Renault Megane, 2017 an
+Pret: 30 999 € 78 000 km, Marca: Audi Q5, 2018 an
+Pret: 2 800 € 89 000 km, Marca: ВАЗ 2121 Niva, 1989 an
+Pret: 11 700 € 197 527 km, Marca: Toyota Auris, 2017 an
+Pret: 14 350 € Prima ratā: 200 €, Marca: Renault Kadjar, 2018 an
+Pret: 14 990 € Prima ratā: 200 €, Marca: Renault Kadjar, 2018 an
+Pret: 13 350 € Prima ratā: 200 €, Marca: Renault Kadjar, 2018 an
+Pret: 11 200 € 250 km, Marca: Nissan Qashqai, 2016 an
+Pret: 1 150 € 201 000 km, Marca: Skoda Fabia, 2002 an
+Pret: 11 111 € 1 111 111 km, Marca: Volkswagen Passat, 2015 an

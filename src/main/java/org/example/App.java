@@ -3,34 +3,40 @@ package org.example;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 public class App {
-
     public static void main(String[] args) {
-        String url = "https://999.md/ro/85852890";
+        String url = "https://999.md/ro/list/transport/cars";
+
         try {
-            Document document = Jsoup.connect(url).get();
+            HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
+            connection.setRequestMethod("GET");
+            int responseCode = connection.getResponseCode();
 
-            Element carElement = document.selectFirst(".adPage__content__features");
-            Element carPrice = document.selectFirst(".adPage__aside__price");
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+                Document document = Jsoup.connect(url).get();
+                Elements masini = document.select("li.ads-list-photo-item");
+                BufferedWriter writer = new BufferedWriter(new FileWriter("D:/Test/ParserJava/masini.txt"));
 
-            String marca = carElement.select(".adPage__content__features__value").text();
-            String model = carElement.select(".adPage__content__features__value").text();
-            String an = carElement.select(".adPage__content__features__value").text();
-            String pret = carPrice.select(".adPage__content__price-feature__prices__price.is-main").text();
+                for (Element masina : masini) {
+                    String pret = masina.select("div.ads-list-photo-item-price").text().trim();
+                    String marca = masina.select("div.ads-list-photo-item-title").text().trim();
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter("D:/Test/ParserJava/masina.txt"));
+                    writer.write("Pret: " + pret + ", Marca: " + marca +  "\n");
+                }
 
-            writer.write("Marca: " + marca + "\n");
-            //writer.write("Model: " + model + "\n");
-            // writer.write("An: " + an + "\n");
-            writer.write("Pret: " + pret + "\n");
+                writer.close();
 
-            writer.close();
-            System.out.println("Informatiile au fost adaugate in fisierul masina.txt");
+            } else {
+                System.out.println("Eroare la efectuarea cererii HTTP." + responseCode);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }

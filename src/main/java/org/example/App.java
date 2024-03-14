@@ -5,43 +5,42 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.BufferedWriter;
-import java.io.FileInputStream;
-import java.io.FileWriter;
+
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Properties;
 
 public class App {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         Properties properties = new Properties();
-        try {
-            properties.load(new FileInputStream("D:/Test/ParserJava/src/main/resources/connect.properties"));
-            String url = properties.getProperty("url");
+        properties.load(Files.newInputStream(Paths.get("D:/Test/ParserJava/src/main/resources/connect.properties")));
+        String url = properties.getProperty("url");
 
-            HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
-            connection.setRequestMethod("GET");
-            int responseCode = connection.getResponseCode();
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/information", "root", "root123")) {
+            Document document = Jsoup.connect(url).get();
+            Elements elements = document.select(".ads-list-photo-item");
 
-            if (responseCode == HttpURLConnection.HTTP_OK) {
-                Document document = Jsoup.connect(url).get();
-                Elements masini = document.select("li.ads-list-photo-item");
-                BufferedWriter writer = new BufferedWriter(new FileWriter("D:/Test/ParserJava/masini.txt"));
+            String sql = "INSERT INTO carinf (Pret, Marca) VALUES (?, ?)";
+            try (PreparedStatement statement = connection.prepareStatement(sql)) {
+                for (Element element : elements) {
+                    String marca = element.select(".ads-list-photo-item .ads-list-photo-item-title").text();
+                    String pret = element.select(".ads-list-photo-item .ads-list-photo-item-price").text();
 
-                for (Element masina : masini) {
-                    String pret = masina.select("div.ads-list-photo-item-price").text().trim();
-                    String marca = masina.select("div.ads-list-photo-item-title").text().trim();
+                    statement.setString(1, pret);
+                    statement.setString(2, marca);
 
-                    writer.write("Pret: " + pret + ", Marca: " + marca +  "\n");
+                    // Execută interogarea SQL
+                    statement.executeUpdate();
                 }
-
-                writer.close();
-
-            } else {
-                System.out.println("Eroare la efectuarea cererii HTTP." + responseCode);
             }
-        } catch (IOException e) {
+            System.out.println("Datele au fost extrase și salvate cu succes în baza de date!");
+        } catch (IOException | SQLException e) {
             e.printStackTrace();
         }
     }

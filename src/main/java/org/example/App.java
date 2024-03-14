@@ -17,42 +17,15 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class App {
-    private static final class DatabaseConnection {
-        private static final String URL = "jdbc:mysql://localhost:3306/information";
-        private static final String USERNAME = "root";
-        private static final String PASSWORD = "root123";
-
-        private static Connection connection = null;
-
-        static {
-            try {
-                connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            } catch (SQLException e) {
-                e.printStackTrace();
-            }
-        }
-
-        private DatabaseConnection() {}
-
-        public static Connection getConnection() {
-            return connection;
-        }
-    }
-
-    private static final class AppSingleton {
-        private static final App INSTANCE = new App();
-
-        private AppSingleton() {}
-
-        public static App getInstance() {
-            return INSTANCE;
-        }
-    }
+    private static App instance = null;
 
     private App() {}
 
-    public static App getInstance() {
-        return AppSingleton.getInstance();
+    public static synchronized App getInstance() {
+        if (instance == null) {
+            instance = new App();
+        }
+        return instance;
     }
 
     public void parseAndStoreCarData(String url) {
@@ -104,6 +77,28 @@ public class App {
 
         public String getPrice() {
             return price;
+        }
+    }
+
+    private static final class DatabaseConnection {
+        private static final String URL = "jdbc:mysql://localhost:3306/information";
+        private static final String USERNAME = "root";
+        private static final String PASSWORD = "root123";
+
+        private static Connection connection = null;
+
+        static {
+            try {
+                connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+
+        private DatabaseConnection() {}
+
+        public static Connection getConnection() {
+            return connection;
         }
     }
 }
